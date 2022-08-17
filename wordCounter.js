@@ -20,8 +20,6 @@ const wordFreq = (string) => {
     items.sort(function(first, second) {
         return second[1] - first[1];
     });
-    
-    console.log(items.slice(0, 10));
     const top10words = items.slice(0,10);
     return top10words;
 
