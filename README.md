@@ -5,6 +5,8 @@ after installing the frameworks run the following commands from a terminal
 - run "npm install" from terminal while inside of the github project folder
 - run "node index.js" to start server
 
+- included also a couple of unit tests for testing the primary sorting function for the text, these can be run by typing "npm test" in the project folder from the terminal 
+
 do a post request to http://localhost:5000/test with a string of random words
 
 curl example: "curl -H "Content-type: text/plain" -X "POST" -d "The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog, The quick brown fox jumps over the lazy dog" http://localhost:5000/test"
